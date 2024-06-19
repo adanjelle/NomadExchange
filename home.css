@@ -1,0 +1,302 @@
+.back-vedio{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  
+  
+}
+@media(min-aspect-ratio:16/9){
+  .back-vedio{
+    width: 100%;
+    height: auto;
+  }
+}
+@media(max-aspect-ratio:16/9){
+  .back-vedio{
+    width: auto;
+    height: 100%;
+  }
+}
+/* .hero{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+  position: relative;
+  padding: 0.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+
+nav{
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+padding: 20px,8%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  /* padding-top: 50px; */
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+
+}
+.content{
+  text-align: center;
+}
+.content h1{
+  font-size: 100px;
+  color: white;
+  font-weight: 600;
+  transition: o.5s;
+}
+.content h1:hover{
+  -webkit-text-stroke: 2px #fff;
+  color:transparent
+}
+/* .welcome{
+  border: 2px,solid #1bb898;
+  border-radius: 50px;
+  margin-top: 20px;
+  padding: 14px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin-left: 450px; */
+
+/* .camel{
+  background-image: url(blog-camels-2.jpg);
+} */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #007b5e !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+
+/* .div1{
+  height: 420px;
+  width: 320px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.popup {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.close-button {
+  float: right;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+/* .Container{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(38, 199, 14);
+  display: flex;
+  align-items:center;
+  justify-content: center; */
+/* } */
+form{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+form h3{
+  color: brown;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+form input,form textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: white;
+  font-size: 16px;
+}
+form button{
+  padding: 15px;
+  background: rgb(224, 161, 43);
+  color: white;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
